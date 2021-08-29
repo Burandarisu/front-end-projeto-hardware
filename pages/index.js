@@ -32,7 +32,7 @@ export default function Home({ measures }) {
         <TooltipContainer>
           <p className="label">{`Hour: ${new Date(
             label
-          ).toLocaleTimeString()} : `}</p>
+          ).toLocaleTimeString()}`}</p>
           <p className="desc">{`Temperature: ${payload[0].payload.temperature}ºC`}</p>
         </TooltipContainer>
       );
@@ -47,7 +47,7 @@ export default function Home({ measures }) {
         <TooltipContainer>
           <p className="label">{`Hour: ${new Date(
             label
-          ).toLocaleTimeString()} : `}</p>
+          ).toLocaleTimeString()}`}</p>
           <p className="desc">{`Humidity: ${payload[0].payload.humidity}%`}</p>
         </TooltipContainer>
       );
